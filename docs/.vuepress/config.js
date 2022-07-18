@@ -16,8 +16,12 @@ module.exports = {
         // 导航栏
         navbar: navConfig,
         // 侧边栏
-        sidebar: sideConfig
+        sidebar: sideConfig,
+        // 更新时间
+        lastUpdatedText: '更新时间',
+        // 贡献者
+        contributorsText: '贡献者',
     }),
     // 插件
-    plugins: pluginsConfig
+    plugins: pluginsConfig,
 }
