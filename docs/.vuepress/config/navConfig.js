@@ -3,6 +3,15 @@ module.exports = [
     { text: '开发工具', link: '/dev-mean/' },
     { text: '实用插件', link: '/plug/' },
     {
+        text: '后端开发',
+        children: [
+            {
+                text: '操作系统',
+                children: ['/back/linux/']
+            }
+        ]
+    },
+    {
         text: '专接本',
         children: [
             {
@@ -15,5 +24,5 @@ module.exports = [
             },
         ],
     },
-    { text: 'External', link: 'https://google.com' },
+    { text: 'Google', link: 'https://google.com' },
 ]
