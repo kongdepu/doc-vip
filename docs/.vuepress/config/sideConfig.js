@@ -4,7 +4,7 @@ module.exports =
   '/guide/': [
     {
       text: '介绍',
-      children: [],
+      children: ['/guide/vue.md'],
     },
   ],
   // 开发工具
