@@ -2,8 +2,8 @@
 lang: zh-CN
 home: true
 heroImage: /images/logo.png
-heroText: Hero 标题
-tagline: Hero 副标题
+heroText: 遇见晴缘
+tagline: 晴缘
 actions:
   - text: 快速上手
     link: /guide/

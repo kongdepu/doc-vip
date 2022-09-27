@@ -7,7 +7,7 @@ const pluginsConfig = require('./config/pluginsConfig') // 插件
 module.exports = {
     base: '/',
     lang: 'zh-CN',
-    title: '温柔',
+    title: '晴缘 ',
     head: headConfig,
     description: 'VuePress',
     theme: defaultTheme({
