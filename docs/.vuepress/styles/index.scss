@@ -1,3 +1,12 @@
 :root {
-  
+  .navbar {
+    // background-color:  #de2910ff;
+  }
+}
+// 暗黑模式
+html.dark {
+  .navbar {
+    background-image: url(https://lf3-static.bytednsdoc.com/obj/eden-cn/ild_jw_upfbvk_lm/ljhwZthlaukjlkulzlp/icon/icon-header-dark.png);
+    background-size: cover;
+  }
 }
