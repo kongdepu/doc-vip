@@ -1,12 +1,30 @@
 :root {
   .navbar {
-    // background-color:  #de2910ff;
+    background-image: url("../images/navbar/navbar-light.png");
+    background-size: cover;
+    background-position: 100%;
   }
 }
+
 // 暗黑模式
 html.dark {
   .navbar {
-    background-image: url(https://lf3-static.bytednsdoc.com/obj/eden-cn/ild_jw_upfbvk_lm/ljhwZthlaukjlkulzlp/icon/icon-header-dark.png);
+    background-image: url("../images/navbar/navbar-dark.png");
     background-size: cover;
+    background-position: 100%;
+  }
+}
+
+// 当屏幕宽度小于768px时（移动端）
+@media only screen and (max-width: 768px) {
+  :root {
+    .navbar {
+      background-position: 75%;
+    }
+  }
+  html.dark {
+    .navbar {
+      background-position: 75%;
+    }
   }
 }
