@@ -22,16 +22,45 @@ module.exports =
     },
   ],
   // 后端开发
-  '/back/linux/': [
-    {
-      text: '简介',
+  '/back/': [
+    { 
+      text: '托管平台',
       collapsible: false,
-      children: []
+      children:
+      [
+        {
+          text: '简介',
+          collapsible: false,
+          children: ['/back/hosting/']
+        },
+        {
+          text: 'Gitee',
+          collapsible: false,
+          children: ['/back/hosting/gitee/']
+        },
+        {
+          text: 'Github',
+          collapsible: false,
+          children: ['/back/hosting/github/', '/back/hosting/github/pages/']
+        },
+      ]
     },
     {
-      text: '部署',
+      text: 'Linux',
       collapsible: false,
-      children: ['/back/linux/deploy/php.md']
+      children:
+      [
+        {
+          text: '简介',
+          collapsible: false,
+          children: ['/back/linux/']
+        },
+        {
+          text: '部署',
+          collapsible: false,
+          children: ['/back/linux/deploy/php.md']
+        }
+      ]
     }
   ],
   // 专接本 

@@ -8,6 +8,10 @@ module.exports = [
             {
                 text: '操作系统',
                 children: ['/back/linux/']
+            },
+            {
+                text: '托管平台',
+                children: ['/back/hosting/gitee/', '/back/hosting/github/']
             }
         ]
     },
