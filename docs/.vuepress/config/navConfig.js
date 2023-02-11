@@ -1,7 +1,7 @@
 module.exports = [
-    { text: '介绍', link: '/guide/' },
-    { text: '开发工具', link: '/dev-mean/' },
-    { text: '实用插件', link: '/plug/' },
+    {text: '介绍', link: '/guide/'},
+    {text: '开发工具', link: '/dev-mean/'},
+    {text: '实用插件', link: '/plug/'},
     {
         text: '后端开发',
         children: [
@@ -28,5 +28,14 @@ module.exports = [
             },
         ],
     },
-    { text: 'Google', link: 'https://google.com' },
+    {
+        text: '教资',
+        children: [
+            {
+                text: '科目一',
+                children: ['/jiaozi/subject-one/composition.md'],
+            },
+        ],
+    },
+    {text: 'Google', link: 'https://google.com'},
 ]

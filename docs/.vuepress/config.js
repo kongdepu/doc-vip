@@ -1,4 +1,4 @@
-const { defaultTheme } = require('vuepress')
+const {defaultTheme} = require('vuepress')
 const headConfig = require('./config/headConfig') // 页面头部
 const navConfig = require('./config/navConfig') // 导航栏
 const sideConfig = require('./config/sideConfig') // 侧边栏

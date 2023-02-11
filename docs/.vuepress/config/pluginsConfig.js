@@ -1,4 +1,4 @@
-const { searchPlugin } = require('@vuepress/plugin-search') // 搜索
+const {searchPlugin} = require('@vuepress/plugin-search') // 搜索
 
 module.exports = [
     // 搜索
