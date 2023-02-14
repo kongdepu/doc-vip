@@ -25,6 +25,11 @@ yum -y install vim*
 [防火墙](https://blog.csdn.net/beyondrl/article/details/90229495)
 [参考网站](https://blog.csdn.net/qq_45752401/article/details/122998462)
 
+## Linux安卓nginx 
+[参考网站](https://blog.csdn.net/jrn1012/article/details/70598363)
+[参考网站](https://blog.csdn.net/t8116189520/article/details/81909574)
+[参考网站](https://blog.csdn.net/w15977858408/article/details/104836066)
+
 ## 防火墙
 ``` sh
     //安装
