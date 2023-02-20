@@ -14,23 +14,9 @@ description: Linux
 ``` sh
 yum -y install vim*
 ```
-[参考网站](https://blog.csdn.net/sunnyzyq/article/details/87089614)
-
-
-## Linux安装jdk
-[参考网站](https://zhuanlan.zhihu.com/p/343227137)
 [参考网站](https://www.runoob.com/linux/linux-vim.html)
 
-## Linux安卓tomcat
-[防火墙](https://blog.csdn.net/beyondrl/article/details/90229495)
-[参考网站](https://blog.csdn.net/qq_45752401/article/details/122998462)
-
-## Linux安卓nginx 
-[参考网站](https://blog.csdn.net/jrn1012/article/details/70598363)
-[参考网站](https://blog.csdn.net/t8116189520/article/details/81909574)
-[参考网站](https://blog.csdn.net/w15977858408/article/details/104836066)
-
-## 防火墙
+## Linux安装防火墙
 ``` sh
     //安装
     yum install firewalld
@@ -89,3 +75,4 @@ yum -y install vim*
     kill -9 ***
     pkill -9 ***(进程名)
 ```
+[参考网站](https://blog.csdn.net/beyondrl/article/details/90229495)

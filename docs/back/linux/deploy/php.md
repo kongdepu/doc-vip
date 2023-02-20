@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
-title: 部署PHP
-description: 部署PHP
+title: php
+description: php
 ---
 
 # 使用Linux搭建PHP开发环境

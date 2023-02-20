@@ -56,9 +56,15 @@ module.exports =
                             children: ['/back/linux/']
                         },
                         {
-                            text: '部署',
+                            text: '安装环境',
                             collapsible: false,
-                            children: ['/back/linux/deploy/php.md']
+                            children: 
+                            [
+                                '/back/linux/deploy/php.md', 
+                                '/back/linux/deploy/tomcat.md',
+                                '/back/linux/deploy/jdk.md',
+                                '/back/linux/deploy/nginx.md',
+                            ]
                         }
                     ]
             }
