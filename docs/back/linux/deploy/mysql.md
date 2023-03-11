@@ -71,3 +71,4 @@ mysql> flush privileges;
 ```
 ## 7、完成
 我们可以通过客服端来接服务器的Mysql了
+[参考网站](https://blog.csdn.net/llAl_lAll/article/details/119419178)
