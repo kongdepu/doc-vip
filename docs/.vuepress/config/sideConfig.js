@@ -65,6 +65,7 @@ module.exports =
                                 '/back/linux/deploy/jdk.md',
                                 '/back/linux/deploy/nginx.md',
                                 '/back/linux/deploy/mysql.md',
+                                '/back/linux/deploy/redis.md',
                             ]
                         }
                     ]
