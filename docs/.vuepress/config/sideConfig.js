@@ -21,6 +21,26 @@ module.exports =
                 children: ['/plug/docker.md'],
             },
         ],
+        // 前端开发
+        '/front/': [
+            {
+                text: 'APP',
+                collapsible: false,
+                children:
+                    [
+                        {
+                            text: '简介',
+                            collapsible: false,
+                            children: ['/front/mobile/']
+                        },
+                        {
+                            text: 'Flex',
+                            collapsible: false,
+                            children: ['/front/mobile/flex.md']
+                        }
+                    ]
+            }
+        ],
         // 后端开发
         '/back/': [
             {

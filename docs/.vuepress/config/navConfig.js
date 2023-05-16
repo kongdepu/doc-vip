@@ -3,6 +3,15 @@ module.exports = [
     {text: '开发工具', link: '/dev-mean/'},
     {text: '实用插件', link: '/plug/'},
     {
+        text: '前端开发',
+        children: [
+            {
+                text: 'APP',
+                children: ['/front/mobile/flex.md']
+            }
+        ]
+    },
+    {
         text: '后端开发',
         children: [
             {
