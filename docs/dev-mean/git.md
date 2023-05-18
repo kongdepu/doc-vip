@@ -127,3 +127,41 @@ $ git blame <file>
 $ git log --author=Linus --oneline -5
 ```
 更多 git log 命令可查看[点击访问](http://git-scm.com/docs/git-log)
+
+## 常用命令
+``` sh
+# 配置用户名称
+git config --global user.name "runoob"        
+# 配置电子邮箱地址  
+git config --global user.email test@runoob.com 
+
+# 查看状态
+git status
+
+# 添加文件到暂存区
+git add 文件名
+# 添加全部文件到暂存区
+git add ./
+# 将暂存区内容添加到仓库中，不加文件名表示全部
+git commit -m '日志内容' 文件名
+# 创建一个别名 
+git remote add <别名> <url>
+# 查看别名
+git remote -v
+# 推送
+git push <别名> <分支名称>
+# 拉取
+git pull <别名> <分支名称>
+
+
+
+# 没有参数时，git branch 会列出你在本地的分支
+git branch (分支名称)
+# 切换分支
+$ git checkout (分支名称)
+# 合并分支
+$ git merge (分支名称)
+# 删除分支
+$ git branch -d (分支名称)
+
+```
