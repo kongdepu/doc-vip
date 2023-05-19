@@ -158,10 +158,24 @@ git pull <别名> <分支名称>
 # 没有参数时，git branch 会列出你在本地的分支
 git branch (分支名称)
 # 切换分支
-$ git checkout (分支名称)
+git checkout (分支名称)
 # 合并分支
-$ git merge (分支名称)
+git merge (分支名称)
 # 删除分支
-$ git branch -d (分支名称)
+git branch -d (分支名称)
 
+# 为当前分支所在的提交记录打上附注标签 如:git tag -a v1.0.0 -m '第一个版本' 
+git tag -a <anotated_name> -m <tag_message>
+# 列出所有的标签名
+git tag
+# 删除某个标签，本质上就是移除 .git/refs/tags/ 中对应的文件
+git tag -d <tag_name>
+# 显示标签对应提交记录的具体信息
+git show <tag_name>
+# 推送某个标签到远程仓库
+git push <remote> <tag_name>
+# 推送所有标签到远程仓库
+git push <remote> --tags
+# 删除远程仓库中的某个标签
+git push <remote> --delete <tag_name>
 ```
