@@ -25,16 +25,12 @@ module.exports = [
         ]
     },
     {
-        text: '专接本',
+        text: '编程语言',
         children: [
             {
-                text: '专业课',
-                children: ['/jieben/c/', '/jieben/wjyl/'],
-            },
-            {
-                text: '公共课',
-                children: ['/jieben/math/'],
-            },
+                text: '语言',
+                children: ['/language/c/', '/language/python/', '/language/wjyl/'],
+            }
         ],
     },
     {

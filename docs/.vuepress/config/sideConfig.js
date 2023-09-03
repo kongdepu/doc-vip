@@ -92,21 +92,21 @@ module.exports =
             }
         ],
         // 专接本 
-        '/jieben/': [
+        '/language/': [
             {
                 text: 'C语言',
                 collapsible: false,
-                children: ['/jieben/c/const.md', '/jieben/c/programming.md']
+                children: ['/language/c/const.md', '/language/c/programming.md']
+            },
+            {
+                text: 'Python',
+                collapsible: false,
+                children: ['/language/python/init.md']
             },
             {
                 text: '微机原理',
                 collapsible: false,
-                children: ['/jieben/wjyl/chapter-one.md', '/jieben/wjyl/chapter-two.md', '/jieben/wjyl/chapter-three.md', '/jieben/wjyl/chapter-four.md', '/jieben/wjyl/chapter-five.md', '/jieben/wjyl/chapter-six.md',]
-            },
-            {
-                text: '高数',
-                collapsible: false,
-                children: []
+                children: ['/language/wjyl/chapter-one.md', '/language/wjyl/chapter-two.md', '/language/wjyl/chapter-three.md', '/language/wjyl/chapter-four.md', '/language/wjyl/chapter-five.md', '/language/wjyl/chapter-six.md',]
             }
         ],
         // 教资
