@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-f8d6c8fe","path":"/back/hosting/gitee/","title":"Gitee","lang":"zh-CN","frontmatter":{"lang":"zh-CN","title":"Gitee","description":"Gitee"},"excerpt":"","headers":[],"git":{"updatedTime":1666688290000,"contributors":[{"name":"kongdepu","email":"kongdepu@126.com","commits":1}]},"filePathRelative":"back/hosting/gitee/README.md"}');export{e as data};

@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as r,a as e,b as c}from"./app.5bd229a3.js";const n={},o=e("h1",{id:"gitee",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#gitee","aria-hidden":"true"},"#"),c(" Gitee")],-1),s=[o];function i(_,d){return a(),r("div",null,s)}var l=t(n,[["render",i],["__file","index.html.vue"]]);export{l as default};

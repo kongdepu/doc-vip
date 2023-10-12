@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-4a5e60e4","path":"/front/mobile/","title":"APP","lang":"zh-CN","frontmatter":{"lang":"zh-CN","title":"APP","description":"APP"},"excerpt":"","headers":[],"git":{"updatedTime":1684226591000,"contributors":[{"name":"kongdepu","email":"kongdepu@126.com","commits":1}]},"filePathRelative":"front/mobile/README.md"}');export{e as data};

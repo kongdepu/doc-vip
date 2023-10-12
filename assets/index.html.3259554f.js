@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-26c61cac","path":"/language/c/","title":"C","lang":"zh-CN","frontmatter":{"lang":"zh-CN","title":"C","description":"C"},"excerpt":"","headers":[],"git":{"updatedTime":1693745844000,"contributors":[{"name":"kongdepu","email":"kongdepu@126.com","commits":1}]},"filePathRelative":"language/c/README.md"}');export{e as data};
